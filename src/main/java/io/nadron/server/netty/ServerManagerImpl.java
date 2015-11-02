@@ -25,21 +25,21 @@ public class ServerManagerImpl implements ServerManager
 		
 		if(tcpPort > 0)
 		{
-			AbstractNettyServer tcpServer = (AbstractNettyServer)AppContext.getBean(AppContext.TCP_SERVER);
+			AbstractNettyServer tcpServer = (AbstractNettyServer) AppContext.getBean(AppContext.TCP_SERVER);
 			tcpServer.startServer(tcpPort);
 			servers.add(tcpServer);
 		}
 		
 		if(flashPort > 0)
 		{
-			AbstractNettyServer flashServer = (AbstractNettyServer)AppContext.getBean(AppContext.FLASH_POLICY_SERVER);
+			AbstractNettyServer flashServer = (AbstractNettyServer) AppContext.getBean(AppContext.FLASH_POLICY_SERVER);
 			flashServer.startServer(flashPort);
 			servers.add(flashServer);
 		}
 		
 		if(udpPort > 0)
 		{
-			AbstractNettyServer udpServer = (AbstractNettyServer)AppContext.getBean(AppContext.UDP_SERVER);
+			AbstractNettyServer udpServer = (AbstractNettyServer) AppContext.getBean(AppContext.UDP_SERVER);
 			udpServer.startServer(udpPort);
 			servers.add(udpServer);
 		}
@@ -49,13 +49,13 @@ public class ServerManagerImpl implements ServerManager
 	@Override
 	public void startServers() throws Exception 
 	{
-		AbstractNettyServer tcpServer = (AbstractNettyServer)AppContext.getBean(AppContext.TCP_SERVER);
+		AbstractNettyServer tcpServer = (AbstractNettyServer) AppContext.getBean(AppContext.TCP_SERVER);
 		tcpServer.startServer();
 		servers.add(tcpServer);
-		AbstractNettyServer flashServer = (AbstractNettyServer)AppContext.getBean(AppContext.FLASH_POLICY_SERVER);
+		AbstractNettyServer flashServer = (AbstractNettyServer) AppContext.getBean(AppContext.FLASH_POLICY_SERVER);
 		flashServer.startServer();
 		servers.add(flashServer);
-		AbstractNettyServer udpServer = (AbstractNettyServer)AppContext.getBean(AppContext.UDP_SERVER);
+		AbstractNettyServer udpServer = (AbstractNettyServer) AppContext.getBean(AppContext.UDP_SERVER);
 		udpServer.startServer();
 		servers.add(udpServer);
 	}

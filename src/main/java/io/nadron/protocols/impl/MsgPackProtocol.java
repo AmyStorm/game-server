@@ -72,12 +72,12 @@ public class MsgPackProtocol extends AbstractNettyProtocol {
 		this.msgPackDecoder = msgPackDecoder;
 	}
 
-	public MsgPackEncoder getMsgPackEncoder()
+	public MsgPackEncoder getMsgPackEncoder() 
 	{
 		return msgPackEncoder;
 	}
 
-	public void setMsgPackEncoder(MsgPackEncoder msgPackEncoder)
+	public void setMsgPackEncoder(MsgPackEncoder msgPackEncoder) 
 	{
 		this.msgPackEncoder = msgPackEncoder;
 	}

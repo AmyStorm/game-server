@@ -23,7 +23,7 @@ import java.util.Set;
  * @author Abraham Menacherry
  * 
  */
-public class NettyUDPServer extends AbstractNettyServer 
+public class NettyUDPServer extends AbstractNettyServer
 {
 	private static final Logger LOG = LoggerFactory
 			.getLogger(NettyUDPServer.class);

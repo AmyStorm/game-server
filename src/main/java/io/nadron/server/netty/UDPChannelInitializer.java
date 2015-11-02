@@ -54,12 +54,12 @@ public class UDPChannelInitializer extends ChannelInitializer<DatagramChannel>
 		return upstream;
 	}
 
-	public UDPEventEncoder getUdpEventEncoder() 
+	public UDPEventEncoder getUdpEventEncoder()
 	{
 		return udpEventEncoder;
 	}
 
-	public void setUdpEventEncoder(UDPEventEncoder udpEventEncoder) 
+	public void setUdpEventEncoder(UDPEventEncoder udpEventEncoder)
 	{
 		this.udpEventEncoder = udpEventEncoder;
 	}

@@ -2,7 +2,6 @@ package io.nadron.protocols.impl;
 
 import io.nadron.handlers.netty.MessageBufferEventDecoder;
 import io.nadron.handlers.netty.MessageBufferEventEncoder;
-import io.nadron.protocols.impl.MessageBufferProtocol;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.LengthFieldPrepender;
 import org.junit.Before;

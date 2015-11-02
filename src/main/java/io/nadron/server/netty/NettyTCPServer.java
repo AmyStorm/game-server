@@ -1,5 +1,6 @@
 package io.nadron.server.netty;
 
+import io.nadron.server.Server;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
@@ -57,8 +58,8 @@ public class NettyTCPServer extends AbstractNettyServer {
 	}
 
 	@Override
-	public TransmissionProtocol getTransmissionProtocol() {
-		return TRANSMISSION_PROTOCOL.TCP;
+	public Server.TransmissionProtocol getTransmissionProtocol() {
+		return Server.TRANSMISSION_PROTOCOL.TCP;
 	}
 
 	@Override

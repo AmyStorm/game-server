@@ -22,7 +22,7 @@ public class MsgPackDecoder extends MessageToMessageDecoder<ByteBuf>
 			List<Object> out) throws Exception 
 	{
 		int opcode = msg.readUnsignedByte();
-		if (Events.LOG_IN == opcode || Events.RECONNECT == opcode) 
+		if (Events.LOG_IN == opcode || Events.RECONNECT == opcode)
 		{
 			msg.readUnsignedByte();// To read-destroy the protocol version byte.
 		}
@@ -31,12 +31,12 @@ public class MsgPackDecoder extends MessageToMessageDecoder<ByteBuf>
 		out.add(Events.event(source, opcode));
 	}
 
-	public MessagePack getMsgPack() 
+	public MessagePack getMsgPack()
 	{
 		return msgPack;
 	}
 
-	public void setMsgPack(MessagePack msgPack) 
+	public void setMsgPack(MessagePack msgPack)
 	{
 		this.msgPack = msgPack;
 	}

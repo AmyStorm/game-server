@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * This class takes a {@link ByteBuf} containing AMF3 object as input and
- * creates a java object from it using the {@link AMFDeSerializer} class.
+ * creates a java object from it using the {@link AMFDeSerializer} class. 
  * 
  * @author Abraham Menacherry.
  * 
