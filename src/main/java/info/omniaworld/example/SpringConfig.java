@@ -1,10 +1,10 @@
-package info.omniaworld;
+package info.omniaworld.example;
 
-import info.omniaworld.lostdecade.LDRoom;
-import info.omniaworld.zombie.domain.Defender;
-import info.omniaworld.zombie.domain.World;
-import info.omniaworld.zombie.domain.Zombie;
-import info.omniaworld.zombie.game.ZombieRoom;
+import info.omniaworld.example.lostdecade.LDRoom;
+import info.omniaworld.example.zombie.domain.Defender;
+import info.omniaworld.example.zombie.domain.World;
+import info.omniaworld.example.zombie.domain.Zombie;
+import info.omniaworld.example.zombie.game.ZombieRoom;
 import io.nadron.app.Game;
 import io.nadron.app.GameRoom;
 import io.nadron.app.impl.GameRoomSession.GameRoomSessionBuilder;

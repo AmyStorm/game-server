@@ -1,9 +1,9 @@
-package info.omniaworld.zombie.game;
+package info.omniaworld.example.zombie.game;
 
-import info.omniaworld.zombie.domain.Defender;
-import info.omniaworld.zombie.domain.IAM;
-import info.omniaworld.zombie.domain.Zombie;
-import info.omniaworld.zombie.domain.ZombieCommands;
+import info.omniaworld.example.zombie.domain.Defender;
+import info.omniaworld.example.zombie.domain.IAM;
+import info.omniaworld.example.zombie.domain.Zombie;
+import info.omniaworld.example.zombie.domain.ZombieCommands;
 import io.nadron.app.GameCommandInterpreter;
 import io.nadron.app.Session;
 import io.nadron.app.impl.InvalidCommandException;

@@ -1,6 +1,6 @@
-package info.omniaworld.zombie.game;
+package info.omniaworld.example.zombie.game;
 
-import info.omniaworld.zombie.domain.ZombieCommands;
+import info.omniaworld.example.zombie.domain.ZombieCommands;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 

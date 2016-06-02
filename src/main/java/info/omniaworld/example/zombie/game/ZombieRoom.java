@@ -1,9 +1,9 @@
-package info.omniaworld.zombie.game;
+package info.omniaworld.example.zombie.game;
 
-import info.omniaworld.zombie.domain.Defender;
-import info.omniaworld.zombie.domain.IAM;
-import info.omniaworld.zombie.domain.World;
-import info.omniaworld.zombie.domain.Zombie;
+import info.omniaworld.example.zombie.domain.Defender;
+import info.omniaworld.example.zombie.domain.IAM;
+import info.omniaworld.example.zombie.domain.World;
+import info.omniaworld.example.zombie.domain.Zombie;
 import io.nadron.app.PlayerSession;
 import io.nadron.app.impl.GameRoomSession;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package info.omniaworld.zombie.domain;
+package info.omniaworld.example.zombie.domain;
 
 public enum IAM
 {

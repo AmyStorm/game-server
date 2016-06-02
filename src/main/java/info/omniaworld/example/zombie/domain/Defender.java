@@ -1,15 +1,15 @@
-package info.omniaworld.zombie.domain;
+package info.omniaworld.example.zombie.domain;
 
 
-public class Zombie
+public class Defender
 {
 	private World world;
-	
-	public void eatBrains() 
-	{
-		world.eatBrains();
-	}
 
+	public void shotgun() 
+	{
+		world.shotgun();
+	}
+	
 	public World getWorld()
 	{
 		return world;
@@ -19,4 +19,5 @@ public class Zombie
 	{
 		this.world = world;
 	}
+	
 }

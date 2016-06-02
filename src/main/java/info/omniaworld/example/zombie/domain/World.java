@@ -1,4 +1,4 @@
-package info.omniaworld.zombie.domain;
+package info.omniaworld.example.zombie.domain;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

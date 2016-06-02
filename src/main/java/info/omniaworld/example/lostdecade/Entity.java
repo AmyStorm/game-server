@@ -1,4 +1,4 @@
-package info.omniaworld.lostdecade;
+package info.omniaworld.example.lostdecade;
 
 import java.io.Serializable;
 

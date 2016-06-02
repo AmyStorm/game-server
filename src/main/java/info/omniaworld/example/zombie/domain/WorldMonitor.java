@@ -1,6 +1,6 @@
-package info.omniaworld.zombie.domain;
+package info.omniaworld.example.zombie.domain;
 
-import info.omniaworld.zombie.game.Messages;
+import info.omniaworld.example.zombie.game.Messages;
 import io.nadron.app.GameRoom;
 import io.nadron.app.Task;
 import io.nadron.communication.DeliveryGuaranty.DeliveryGuarantyOptions;

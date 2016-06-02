@@ -1,4 +1,4 @@
-package info.omniaworld;
+package info.omniaworld.example;
 
 import io.nadron.server.ServerManager;
 import org.apache.log4j.PropertyConfigurator;
