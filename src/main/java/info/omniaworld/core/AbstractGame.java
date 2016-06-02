@@ -1,4 +1,4 @@
-package info.omniaworld.core.impl;
+package info.omniaworld.core;
 
 import info.omniaworld.core.Game;
 
